@@ -1,0 +1,220 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/258/101/166/1920x1080-px-5-centimeters-per-second-anime-nature-sunsets-hd-art-wallpaper-preview.jpg) ;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  
+  text-align: center;
+}
+
+.stretch-card > .card {
+  width: 100%;
+  min-width: 100%;
+}
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 991.98px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.grid-margin,
+.purchace-popup > div {
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 0;
+  border-radius: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-weather .card-body:first-child {
+  background: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg)
+    no-repeat center;
+  background-size: cover;
+  
+}
+
+.card .card-body {
+  padding: 1.88rem 1.81rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-weather .weather-date-location {
+  padding: 0 0 38px;
+}
+
+.h3,
+h3 {
+  font-size: 2rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: black;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: black;
+}
+
+.card-weather .weather-data {
+  padding: 0 0 4.75rem;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.display-3 {
+  font-size: 2.5rem;
+}
+
+.card-weather .card-body {
+  background: #ffffff;
+}
+
+.card-weather .weakly-weather {
+  background: #ffffff;
+  overflow-x: auto;
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+  flex: 0 0 14.28%;
+  border-right: 1px solid #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+  font-size: 1.2rem;
+}
+.padding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputs {
+  margin-bottom: 20px;
+  display: flex;
+}
+.inputs button {
+  min-width: 120px;
+  border-radius: 8px;
+  margin-left: 20px;
+  background-color: rgb(39, 41, 44);
+  border: black;
+}
+.inputs input {
+  min-width: 570px;
+  border-radius: 5px;
+  text-indent: 20px;
+  border: none;
+}
+.text-gray {
+  display: flex;
+  flex-direction: column;
+}
+.weather-data d-flex {
+  min-width: 100px;
+  
+}
+.temp {
+  display: flex;
+  padding-left: 270px;
+  flex-direction: row;
+  width: 650px;
+  text-align: center;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.values {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.icons {
+  font-size: 35px;
+  color: black;
+}
+.details2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+}
+.switch {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.weather-data d-flex {
+  max-height: 200px;
+}
